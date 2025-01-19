@@ -15,4 +15,4 @@ Media & Entertainment industry demo for audience targeting. Create a feature pip
 - Easy integration with downstream systems
 
 # Get Started
-To get started, run the [RUNME file](./RUNME.ip)!
+To get started, run the [RUNME file](./RUNME.py)!
