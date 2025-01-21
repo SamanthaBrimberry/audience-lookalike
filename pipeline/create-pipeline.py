@@ -80,7 +80,7 @@ pipeline_id = response.json().get('pipeline_id')
 run_config = {}
 
 response = requests.post(
-    f'{base_url}/api/2.0/pipelines/{pipeline_id.get('pipeline_id')}/updates',
+    f'{base_url}/api/2.0/pipelines/{pipeline_id}/updates',
     headers={'Authorization': f'Bearer {token}'},
     data=json.dumps(run_config)
 )
